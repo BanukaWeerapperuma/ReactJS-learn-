@@ -1,0 +1,13 @@
+
+  .body-main {
+    font-size: 36px;
+    margin: 0;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: violet;
+    padding: 10px;
+    margin: auto;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+  }
+  

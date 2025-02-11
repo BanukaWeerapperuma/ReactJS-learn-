@@ -1,0 +1,76 @@
+npm create vite@latest
+npm install 
+npm run dev     
+
+fragment -->  <> </>
+(only have one parent element)
+
+------------------------------------------------------
+JSX usage
+example in APP.JSX
+
+-----------------
+
+function App() {
+
+  const num1=30;
+  const num2=45;
+
+  const getTot=(num1, num2)=>{
+      return `${num1} + ${num2} `;
+  }
+
+  const getSum=(num1, num2)=>{
+    return `${num1+num2}`;
+}
+
+const arr=[1,2,3,4,5];
+
+const lan=<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JS</li>
+<li>React</li>
+</ul>;
+
+
+const obj={
+    name:"roox",
+    age:22
+}
+
+
+
+  return (
+
+    <>
+    <div className="App">
+    <h1 className="heading">React-roox</h1>
+    <p>{getTot(45,78)}</p>
+    <p>{getSum(45,78)}</p>
+    <p>random number is : {arr[3]}</p>
+
+    <p>{getTot(45,78)>50 ? "grater" : "less"}</p>
+    
+    <p>Frontend languages</p>
+    {lan}
+
+    <p>{obj.name} is  {obj.age}</p>
+    
+    
+    </div>
+
+
+    
+    
+    </>
+  )
+}
+
+export default App
+-----------------------------------------------
+
+React JS Props & Props.Children: Reusable Component Development
+
+
+
